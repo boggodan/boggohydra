@@ -17,7 +17,7 @@ src(o1).terrain()
 Example:
 
 ```
-await loadScript("await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/terrain.js")
+await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/terrain.js")
 
 shape(3,0.3,0.0)
 .sub(shape(3,0.26,0.0))
