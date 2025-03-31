@@ -11,7 +11,7 @@ await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/terr
 ```
 
 Then you can call either terrain(), terrainCheap() or terrainVeryCheap(). 
-Note that these functions only work directly on video source - they only read an input source directly, so you cannot chain them. For example you might call:
+Note that these functions only work directly on a video source - they only read an input source directly, so you cannot chain them. For example you might call:
 
 src(o1).terrain()
 
