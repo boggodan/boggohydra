@@ -10,9 +10,12 @@ Simply add this to the top of your hydra code:
 await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/terrain.js")
 ```
 
-Then you can call either terrain(), terrainCheap() or terrainVeryCheap(). Note that these functions don't work at any point in a function chain. They only read an input source directly. For example you might call:
+Then you can call either terrain(), terrainCheap() or terrainVeryCheap(). 
+Note that these functions only work directly on video source - they only read an input source directly, so you cannot chain them. For example you might call:
 
 src(o1).terrain()
+
+The best place to call it is probably in a function chain dedicated to rendering out an image created in a previous pass.
 
 Example:
 
