@@ -10,8 +10,8 @@ Simply add this to the top of your hydra code:
 await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/terrain.js")
 ```
 
-Then you can call either terrain(), terrainCheap() or terrainVeryCheap(). 
-Note that these functions only work directly on a video source - they only read an input source directly, so you cannot chain them. For example you might call:
+Then you can call either terrain().
+Note that this function only works directly on a video source - its reads an input source directly, so you cannot chain them. For example you might call:
 
 src(o1).terrain()
 
@@ -33,7 +33,7 @@ shape(3,0.3,0.0)
 .out(o1)
 
 // heightmap render
-src(o1).terrainCheap(0.3).out(o2)
+src(o1).terrain(0.3).out(o2)
 
 render(o2)
 ```
