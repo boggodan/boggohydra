@@ -68,8 +68,7 @@ voronoi(5)
 .diff(osc(5,0.3,1.0))
 .out(o0)
 
-src(o0)
-.marching(o0)
+marching(o0)
 .color(1,0.3,0.9)
 .out(o1)
 
