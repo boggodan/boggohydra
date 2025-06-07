@@ -42,11 +42,17 @@ render(o2)
 
 This one takes an input source and renders it using marching square interpolation. I think it looks cool.
 I tuned the defaults a bit so it's generally useful but they are:
+
 Scale - the size of the interpolation blocks (similar to a pixelation size... hmm maybe it should work more like pixelate)
+
 Threshold - brightness must pass this threshold to be contoured
+
 Colouredness - how much to take the colour from the original source vs just greyscale (0 - 1)
+
 Interior - interior brightness
+
 Exterior (e.g. Outline) - exterior outline brightness
+
 
 Simply add this to the top of your hydra code:
 
