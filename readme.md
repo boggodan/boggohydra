@@ -41,6 +41,8 @@ render(o2)
 ### Square Marching
 
 This one takes an input source and renders it using marching square interpolation. I think it looks cool.
+Note that it doesn't work like the terrain function - it's actually a source function, so you need to blend it with something like add/layer/etc or call it first in a chain of functions.
+
 I tuned the defaults a bit so it's generally useful but they are:
 
 Scale - the size of the interpolation blocks (similar to a pixelation size... hmm maybe it should work more like pixelate)
