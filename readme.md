@@ -69,7 +69,7 @@ voronoi(5)
 .out(o0)
 
 src(o0)
-.marching()
+.marching(o0)
 .color(1,0.3,0.9)
 .out(o1)
 
