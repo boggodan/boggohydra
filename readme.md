@@ -7,7 +7,7 @@ This library renders Hydra sources in 3D using a heightmap raycaster. It's tuned
 Simply add this to the top of your hydra code:
 
 ```
-await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/terrain.js")
+await loadScript("https://cdn.jsdelivr.net/gh/boggodan/boggohydra@main/lib/terrain.js")
 ```
 
 Then you can call either terrain().
@@ -59,12 +59,12 @@ Exterior (e.g. Outline) - exterior outline brightness
 Simply add this to the top of your hydra code:
 
 ```
-await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/marching.js")
+await loadScript("https://cdn.jsdelivr.net/gh/boggodan/boggohydra@main/lib/marching.js")
 ```
 Example:
 
 ```
-await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/marching.js")
+await loadScript("https://cdn.jsdelivr.net/gh/boggodan/boggohydra@main/lib/marching.js")
 
 voronoi(5)
 .diff(osc(5,0.3,1.0))
