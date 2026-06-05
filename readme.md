@@ -20,7 +20,7 @@ The best place to call it is probably in a function chain dedicated to rendering
 Example:
 
 ```
-await loadScript("https://cdn.statically.io/gh/boggodan/boggohydra/main/lib/terrain.js")
+await loadScript("https://cdn.jsdelivr.net/gh/boggodan/boggohydra@main/lib/terrain.js")
 
 shape(3,0.3,0.0)
 .sub(shape(3,0.26,0.0))
